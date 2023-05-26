@@ -1,6 +1,6 @@
 # contextmenu
 
-![](./Screenshot_2023-03-31_235501.png)
+![](./Screenshot.png)
 
 This project provides a JavaScript solution to create customizable right-click context menus in web applications. The context menu is fully customizable and allows adding actions and submenus.
 
