@@ -223,3 +223,180 @@ const createContextMenu = (elIdOrEl, menuStructure) => {
 	return menuElement;
 };
 
+// example
+// const menuStructure_ = [
+// 	{
+// 		label: 'File',
+// 		list: [
+// 			{
+// 				label: 'New',
+// 				icon: 'file-plus',
+// 				action: () => {
+// 					console.log('New');
+// 				},
+// 			},
+// 			{
+// 				label: 'Open',
+// 				icon: 'folder-plus',
+// 				action: () => {
+// 					console.log('Open');
+// 				},
+// 			},
+// 			{
+// 				label: 'Save',
+// 				icon: 'save',
+// 				action: () => {
+// 					console.log('Save');
+// 				},
+// 				submenu: [
+// 					{
+// 						label: 'Save',
+// 						icon: 'save',
+// 						action: () =>
+// 						{
+// 							console.log('Save');
+// 						},
+// 					},
+// 					{
+// 						label: 'Save As',
+// 						icon: 'save',
+// 						action: () =>
+// 						{
+// 							console.log('Save As');
+// 						},
+// 					},
+// 					{
+// 						label: 'Print',
+// 						icon: 'printer',
+// 						action: () =>
+// 						{
+// 							console.log('Print');
+// 						},
+// 						submenu: [
+// 							{
+// 								label: 'Print page',
+// 								icon: 'printer',
+// 								action: () =>
+// 								{
+// 									console.log('Print page');
+// 								}
+// 							},
+// 							{
+// 								label: 'Print all',
+// 								icon: 'printer',
+// 								action: () =>
+// 								{
+// 									console.log('Print all');
+// 								},
+// 								submenu: [
+// 									{
+// 										label: 'Print page',
+// 										icon: 'printer',
+// 										action: () =>
+// 										{
+// 											console.log('Print page');
+// 										}
+// 									}
+// 								]
+// 							}
+// 						]
+// 					}
+// 				]
+// 			},
+// 			{
+// 				label: 'Exit',
+// 				icon: 'x',
+// 				action: () => {
+// 					console.log('Exit');
+// 				},
+// 			},
+// 		],
+// 	},
+// 	{
+// 		label: 'Edit',
+// 		list: [
+// 			{
+// 				label: 'Undo',
+// 				icon: 'rotate-ccw',
+// 				action: () => {
+// 					console.log('Undo');
+// 				},
+// 			},
+// 			{
+// 				label: 'Redo',
+// 				icon: 'rotate-cw',
+// 				action: () => {
+// 					console.log('Redo');
+// 				},
+// 			},
+// 			{
+// 				label: 'Cut',
+// 				icon: 'scissors',
+// 				action: () => {
+// 					console.log('Cut');
+// 				},
+// 			},
+// 			{
+// 				label: 'Copy',
+// 				icon: 'copy',
+// 				action: () => {
+// 					console.log('Copy');
+// 				},
+// 			},
+// 			{
+// 				label: 'Paste',
+// 				icon: 'clipboard',
+// 				action: () => {
+// 					console.log('Paste');
+// 				},
+// 			},
+// 			{
+// 				label: 'Delete',
+// 				icon: 'trash-2',
+// 				action: () => {
+// 					console.log('Delete');
+// 				},
+// 			},
+// 		],
+// 	},
+// 	{
+// 		label: 'View',
+// 		list: [
+// 			{
+// 				label: 'Zoom In',
+// 				icon: 'zoom-in',
+// 				action: () => {
+// 					console.log('Zoom In');
+// 				},
+// 			},
+// 			{
+// 				label: 'Zoom Out',
+// 				icon: 'zoom-out',
+// 				action: () => {
+// 					console.log('Zoom Out');
+// 				},
+// 			},
+// 			{
+// 				label: 'Zoom Reset',
+// 				icon: 'refresh-cw',
+// 				action: () => {
+// 					console.log('Zoom Reset');
+// 				},
+// 			},
+// 		],
+// 	},
+// 	{
+// 		label: 'Help',
+// 		list: [
+// 			{
+// 				label: 'About',
+// 				icon: 'info',
+// 				action: () => {
+// 					console.log('About');
+// 				},
+// 			},
+// 		],
+// 	},
+// ];
+
+// createContextMenu(menuStructure_, 'header_index');
